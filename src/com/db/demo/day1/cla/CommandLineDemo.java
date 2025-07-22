@@ -1,4 +1,4 @@
-package com.db.demo.day1.cli;
+package com.db.demo.day1.cla;
 
 public class CommandLineDemo {
 
