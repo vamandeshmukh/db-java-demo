@@ -1,3 +1,5 @@
+package com.db.demo.day1;
+
 public class OperatorDemo {
     public static void main(String[] args) {
 

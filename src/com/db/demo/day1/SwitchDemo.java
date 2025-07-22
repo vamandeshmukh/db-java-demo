@@ -1,4 +1,4 @@
-
+package com.db.demo.day1;
 // Find an adjective based on the letter given
 
 public class SwitchDemo {

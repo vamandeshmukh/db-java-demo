@@ -1,3 +1,5 @@
+package com.db.demo.day1;
+
 public class VariableDeclaration {
     public static void main(String[] args) {
 
