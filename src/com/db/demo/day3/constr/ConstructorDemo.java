@@ -10,6 +10,7 @@ public class ConstructorDemo {
         emp.setSalary(90000);
         System.out.println(emp.toString());
 
-
+        Employee emp2 = new Employee(102, "Monu", 95000);
+        System.out.println(emp2.toString());
     }
 }
