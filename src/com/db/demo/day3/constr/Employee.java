@@ -11,6 +11,7 @@ public class Employee {
     }
 
     public Employee(int id, String name) {
+        super();
         this.id = id;
         this.name = name;
     }
@@ -45,12 +46,10 @@ public class Employee {
         this.salary = salary;
     }
 
+    // hashcode, equals
+
     @Override
     public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", salary=" + salary +
-                '}';
+        return "Employee{" + "id=" + id + ", name='" + name + '\'' + ", salary=" + salary + '}';
     }
 }
