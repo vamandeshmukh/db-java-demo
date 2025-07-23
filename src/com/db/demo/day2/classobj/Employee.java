@@ -1,4 +1,4 @@
-package com.db.demo.day3.classobj;
+package com.db.demo.day2.classobj;
 
 public class Employee {
 
@@ -40,7 +40,7 @@ public class Employee {
     }
 }
 
-//package com.db.demo.day3.classobj;
+//package com.db.demo.day2.classobj;
 //
 //public class Employee {
 //

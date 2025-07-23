@@ -1,4 +1,4 @@
-package com.db.demo.day3.constr;
+package com.db.demo.day2.constr;
 
 public class ConstructorDemo {
 
