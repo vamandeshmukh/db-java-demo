@@ -1,7 +1,6 @@
 package com.db.demo.day3.oop.abs;
 
 abstract class Rbi {
-
     void payInterest() {
     }
     abstract void doKyc();
@@ -9,7 +8,6 @@ abstract class Rbi {
 
 interface FinMin {
     public abstract void payTax();
-
 }
 interface LabourMin {
     public abstract void paySalary();
@@ -62,3 +60,13 @@ class IciciBank extends Rbi {
 //}
 //
 //
+
+class Parent { }
+interface Teacher { }
+interface Neighbour { }
+interface Friend { }
+interface Relative { }
+
+class Person extends Parent implements Teacher, Neighbour, Friend, Relative {
+
+}
