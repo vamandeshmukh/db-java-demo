@@ -12,5 +12,9 @@ public class ConstructorDemo {
 
         Employee emp2 = new Employee(102, "Monu", 95000);
         System.out.println(emp2.toString());
+
+        Employee emp3 = new Employee(102, "Monu");
+        System.out.println(emp3.toString());
+
     }
 }
