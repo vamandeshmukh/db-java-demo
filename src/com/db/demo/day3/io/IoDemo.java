@@ -1,7 +1,9 @@
 package com.db.demo.day3.io;
 
-import java.io.FileNotFoundException;
+import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
+
 
 public class IoDemo {
 
@@ -11,11 +13,15 @@ public class IoDemo {
 
         try {
             FileReader reader = new FileReader("sample.txt");
-            reader.read();
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
+            BufferedReader br = new BufferedReader(reader);
+            String str ;
+            while ((str = br.readLine()) != null) {
+                System.out.println(str);
+            }
 
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
 
         System.out.println("End");
     }
