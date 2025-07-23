@@ -9,8 +9,12 @@ public class InheritDemo {
         sphone.call();
         sphone.sms();
 //        System.out.println(sphone.model);
-        System.out.println(SmartPhone.model);
-        System.out.println(sphone.getClass().getName());
+//        System.out.println(SmartPhone.model);
+
+//        System.out.println(sphone instanceof SmartPhone);
+//        System.out.println(sphone instanceof Phone);
+
+        System.out.println(sphone.getClass());
 
     }
 }
