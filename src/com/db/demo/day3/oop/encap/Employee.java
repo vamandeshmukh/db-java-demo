@@ -2,9 +2,12 @@ package com.db.demo.day3.oop.encap;
 
 public class Employee {
 
+    // Abstraction - minimum necessary representation = collect only the important details
+
     private int id;
     private String name;
     private double salary;
+    // email, phone, address, dob, aadhaar, photo , ...
 
     public Employee() {
 
