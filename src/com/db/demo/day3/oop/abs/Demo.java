@@ -1,12 +1,18 @@
 package com.db.demo.day3.oop.abs;
 
 abstract class Rbi {
+
     void payInterest() {
     }
     abstract void doKyc();
+
+    public final void openAccount() {
+
+    }
 }
 
 interface FinMin {
+//    void payTax(); // also abstract method, same as below
     public abstract void payTax();
 }
 interface LabourMin {
@@ -14,6 +20,11 @@ interface LabourMin {
 }
 
 class HdfcBank extends Rbi implements FinMin, LabourMin {
+
+//    @Override
+//    void openAccount() {
+//
+//    }
 
     @Override
     void doKyc() {
