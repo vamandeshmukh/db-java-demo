@@ -10,6 +10,7 @@ public class InheritDemo {
         sphone.sms();
 //        System.out.println(sphone.model);
         System.out.println(SmartPhone.model);
+        System.out.println(sphone.getClass().getName());
 
     }
 }
