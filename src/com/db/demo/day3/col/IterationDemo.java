@@ -26,5 +26,6 @@ public class IterationDemo {
         // code here using lambda
         friends.forEach((friend) -> System.out.println(friend));
 
+
     }
 }
