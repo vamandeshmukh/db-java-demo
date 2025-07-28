@@ -1,6 +1,9 @@
 package com.db.demo.day3.col;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 public class CollectionDemo {
 
@@ -28,6 +31,14 @@ public class CollectionDemo {
         friends.add(false);
         System.out.println(friends.size()); // 2
         System.out.println(friends);
+
+        List<Integer> numList = new LinkedList<>();
+        numList.addAll(Arrays.asList(22, 31, 25, 9, 17, 2, 7, 1));
+        numList.remove(2);
+
+
+
+
 
 
 

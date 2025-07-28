@@ -25,7 +25,8 @@ public class IterationDemo {
         System.out.println("Iterate using for each method (using lambda):");
         // code here using lambda
         friends.forEach((friend) -> System.out.println(friend));
-
+        System.out.println("Iterate using for each method (using method reference):");
+        friends.forEach(System.out::println);
 
     }
 }
