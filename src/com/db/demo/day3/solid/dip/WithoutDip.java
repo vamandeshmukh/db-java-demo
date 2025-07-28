@@ -1,4 +1,4 @@
-package com.db.demo.day9.solid.dip;
+package com.db.demo.day3.solid.dip;
 
 public class WithoutDip {
 

@@ -1,4 +1,4 @@
-package com.db.demo.day9.solid.isp;
+package com.db.demo.day3.solid.isp;
 
 public class WithoutIsp {
 

@@ -1,4 +1,4 @@
-package com.db.demo.day9.solid;
+package com.db.demo.day3.solid;
 
 public class SolidPrinciples {
 

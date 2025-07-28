@@ -1,4 +1,4 @@
-package com.db.demo.day9.solid.ocp;
+package com.db.demo.day3.solid.ocp;
 
 public class WithoutOcp {
 

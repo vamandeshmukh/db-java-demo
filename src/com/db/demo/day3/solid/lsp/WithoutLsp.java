@@ -1,4 +1,4 @@
-package com.db.demo.day9.solid.lsp;
+package com.db.demo.day3.solid.lsp;
 
 public class WithoutLsp {
 

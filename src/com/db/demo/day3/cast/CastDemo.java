@@ -1,4 +1,4 @@
-package com.db.demo.day3.casting;
+package com.db.demo.day3.cast;
 
 public class CastDemo {
 
