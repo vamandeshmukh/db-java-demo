@@ -19,6 +19,5 @@ public class MapDemo {
         System.out.println(codes.keySet());
         System.out.println(codes.values());
 
-
     }
 }
