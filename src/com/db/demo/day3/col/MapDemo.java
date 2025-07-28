@@ -18,6 +18,11 @@ public class MapDemo {
         System.out.println(codes);
         System.out.println(codes.keySet());
         System.out.println(codes.values());
+        codes.put("IND", null);
+        codes.put(null, "India");
+        System.out.println(codes);
+
+
 
     }
 }
