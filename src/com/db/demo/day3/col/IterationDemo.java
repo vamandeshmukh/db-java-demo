@@ -23,10 +23,7 @@ public class IterationDemo {
         while (iterator.hasNext())
             System.out.println(iterator.next());
         System.out.println("Iterate using for each method:");
-        // code here 
-
-
-
+        // code here using lambda
 
     }
 }
