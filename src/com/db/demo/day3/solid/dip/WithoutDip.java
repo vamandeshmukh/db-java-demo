@@ -5,6 +5,7 @@ public class WithoutDip {
 }
 
 class NotificationService {
+
     private SmsSender smsSender = new SmsSender();
 
     public void notifyUser() {
@@ -13,6 +14,7 @@ class NotificationService {
 }
 
 class SmsSender {
+
     public void sendSMS(String msg) {
         System.out.println("SMS: " + msg);
     }

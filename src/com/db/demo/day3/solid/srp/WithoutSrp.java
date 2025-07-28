@@ -5,6 +5,7 @@ public class WithoutSrp {
 }
 
 class RideService {
+
     public void createRide() {
         System.out.println("Ride Created");
     }
