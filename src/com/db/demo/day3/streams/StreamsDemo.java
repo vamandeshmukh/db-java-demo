@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
+// com.db.maven.demo
+
 public class StreamsDemo {
 
     public static void main(String[] args) {
@@ -35,3 +37,4 @@ public class StreamsDemo {
 }
 
 //assignment - comparable, comparator, sort, Collections.sort() etc stuff
+//maven project
