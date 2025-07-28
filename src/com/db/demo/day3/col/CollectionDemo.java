@@ -13,16 +13,24 @@ public class CollectionDemo {
 
         // friends list
         ArrayList friends = new ArrayList();
-        System.out.println(friends.size());
+        System.out.println(friends.size()); // 0
         System.out.println(friends);
         friends.add("Sonu");
         friends.add("Monu");
         friends.add("Tonu");
-        System.out.println(friends.size());
+        System.out.println(friends.size()); // 3
         System.out.println(friends);
         friends.remove(0);
-        System.out.println(friends.size());
+        System.out.println(friends.size()); // 2
         System.out.println(friends);
+        // flexibility
+        friends.add(10);
+        friends.add(false);
+        System.out.println(friends.size()); // 2
+        System.out.println(friends);
+
+
+
 
 
 
