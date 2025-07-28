@@ -6,19 +6,19 @@ public class WrapperDemo {
 
 //        static ClassName.methodName();
 //        non static objectName.methodName();
-//        str. call non static methods or fields
+//        str. -> call non static methods or fields
 
         String str = "abc";
         String str2 = str.toUpperCase();
 
         int num = 10;
-//        num. methods are not available
+//        num. -> methods are NOT available
 
 //        Wrapper classes
 //        int -> Integer
 //        double -> Double
         Integer num2 = 20;
-//        num2. methods are available
+//        num2. -> methods are available
 
 
 
