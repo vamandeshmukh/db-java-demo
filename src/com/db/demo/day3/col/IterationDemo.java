@@ -22,8 +22,9 @@ public class IterationDemo {
         Iterator<String> iterator = friends.iterator();
         while (iterator.hasNext())
             System.out.println(iterator.next());
-        System.out.println("Iterate using for each method:");
+        System.out.println("Iterate using for each method (using lambda):");
         // code here using lambda
+        friends.forEach((friend) -> System.out.println(friend));
 
     }
 }
